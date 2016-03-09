@@ -187,11 +187,6 @@ public class Player extends Mob {
 
 	public void render(Screen screen) {
 		sprite = animSprite.getSprite();
-		/*font = new Font();
-		font.render(screen.width - 84, 1, -6, 0xffffff, "hp", screen);
-		screen.renderSprite(screen.width - 16, 2, Sprite.life_full, false);
-		screen.renderSprite(screen.width - 32, 2, Sprite.life_full, false);
-		screen.renderSprite(screen.width - 48, 2, Sprite.life_half, false);*/
 		screen.renderMob((int) (x - 16), (int) (y - 16), sprite);
 
 	}
